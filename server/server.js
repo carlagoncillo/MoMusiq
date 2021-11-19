@@ -8,6 +8,7 @@ app.use(express.json(), express.urlencoded({extended: true}))
 
 
 require("./config/mongoose.config");
+console.log("test git")
 
 const routesFunction = require("./routes/lyric.routes");
 routesFunction(app);
